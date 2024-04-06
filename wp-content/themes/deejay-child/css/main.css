@@ -1,0 +1,73 @@
+/* Style du titre */
+.site-title {
+    font-family:Impact,sans-serif;
+    font-size: 3.6em;
+    font-weight: 100;
+    margin-top: -20px;
+    color: #ffffff8a!important;
+}
+
+.responsive-site-title, .responsive-site-title a, .site-title, .site-title a {
+    color: #ffffff8a!important;
+}
+
+/*Centrage du texte du body*/
+body.page .entry-title, .type-event .entry-title, .single .entry-title {
+    text-align: center;
+    font-weight: lighter;
+}
+
+/*Slogan*/
+.site-description {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 0.9em;
+    padding: 0em 0 0 0;
+    font-weight:normal;
+    transition: all 1.1s ease;
+    color: #ffffffa1;
+}
+
+/*Articles page d'accueil*/
+.has-header-media .site-header .widget .inner {
+    background: rgba(177, 164, 47, 0.564);
+    padding: 14px;
+}
+.has-deejay-darkgrey-color {
+    color: #ffffff;
+}
+
+/*Couleur du bouton de recherche*/
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #4f4417;
+}
+
+/*Positionnement des widgets d'infos sur le héro*/
+.has-header-media .site-header .widget-area {
+    top: 550px;
+}
+
+/*Footer copyright*/
+.site-info {
+    background-color: #9e8a2d;
+}
+
+.site-info .widget {
+    color: black;
+}
+
+/*Bouton de formulaire*/
+input[type="submit"] {
+    background: #4d4315;
+    color: white;
+}
+
+.wpcf7-list-item-label {
+    box-sizing: border-box;
+    color: white;
+}
+
+/*Suppression de la barre de navigation Topbar*/
+.main-navigation, .main-navigation a, .main-navigation a:focus, .main-navigation a:hover {
+    display: none;
+}
